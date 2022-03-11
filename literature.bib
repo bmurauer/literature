@@ -705,17 +705,17 @@
   keywords    = {cs.LG, cs.CL},
 }
 
-@Article{Sanh2019,
+@Misc{Sanh2019,
   author        = {Victor Sanh and Lysandre Debut and Julien Chaumond and Thomas Wolf},
+  month         = oct,
   title         = {DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
   year          = {2019},
-  month         = oct,
   abstract      = {As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging. In this work, we propose a method to pre-train a smaller general-purpose language representation model, called DistilBERT, which can then be fine-tuned with good performances on a wide range of tasks like its larger counterparts. While most prior work investigated the use of distillation for building task-specific models, we leverage knowledge distillation during the pre-training phase and show that it is possible to reduce the size of a BERT model by 40%, while retaining 97% of its language understanding capabilities and being 60% faster. To leverage the inductive biases learned by larger models during pre-training, we introduce a triple loss combining language modeling, distillation and cosine-distance losses. Our smaller, faster and lighter model is cheaper to pre-train and we demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device study.},
   archiveprefix = {arXiv},
   eprint        = {1910.01108},
   keywords      = {cs.CL},
   primaryclass  = {cs.CL},
-  url = {https://arxiv.org/pdf/1910.01108},
+  url           = {https://arxiv.org/pdf/1910.01108},
 }
 
 @Article{Liu2019,
@@ -759,11 +759,11 @@
   primaryclass  = {cs.CL},
 }
 
-@Article{Wu2019,
+@Misc{Wu2019,
   author        = {Shijie Wu and Mark Dredze},
+  month         = apr,
   title         = {Beto, Bentz, Becas: The Surprising Cross-Lingual Effectiveness of BERT},
   year          = {2019},
-  month         = apr,
   abstract      = {Pretrained contextual representation models (Peters et al., 2018; Devlin et al., 2018) have pushed forward the state-of-the-art on many NLP tasks. A new release of BERT (Devlin, 2018) includes a model simultaneously pretrained on 104 languages with impressive performance for zero-shot cross-lingual transfer on a natural language inference task. This paper explores the broader cross-lingual potential of mBERT (multilingual) as a zero shot language transfer model on 5 NLP tasks covering a total of 39 languages from various language families: NLI, document classification, NER, POS tagging, and dependency parsing. We compare mBERT with the best-published methods for zero-shot cross-lingual transfer and find mBERT competitive on each task. Additionally, we investigate the most effective strategy for utilizing mBERT in this manner, determine to what extent mBERT generalizes away from language specific features, and measure factors that influence cross-lingual transfer.},
   archiveprefix = {arXiv},
   eprint        = {1904.09077},
@@ -875,12 +875,11 @@
   year = 2018
 }
 
-@article{nivre2017universal,
-  title={Universal Dependencies 2.1},
-  author={Nivre, Joakim and Agi{\'c}, {\v{Z}}eljko and Ahrenberg, Lars and Antonsen, Lene and Aranzabe, Maria Jesus and Asahara, Masayuki and Ateyah, Luma and Attia, Mohammed and Atutxa, Aitziber and Augustinus, Liesbeth and others},
-  year={2017},
-  url={https://universaldependencies.org/}
-
+@Misc{nivre2017universal,
+  author = {Nivre, Joakim and Agi{\'c}, {\v{Z}}eljko and Ahrenberg, Lars and Antonsen, Lene and Aranzabe, Maria Jesus and Asahara, Masayuki and Ateyah, Luma and Attia, Mohammed and Atutxa, Aitziber and Augustinus, Liesbeth and others},
+  title  = {Universal Dependencies 2.1},
+  year   = {2017},
+  url    = {https://universaldependencies.org/},
 }
 
 @InProceedings{Nivre2016,
@@ -930,13 +929,6 @@
   author  = {Vuli{\'c}, Ivan and Glava{\v{s}}, Goran and Reichart, Roi and Korhonen, Anna},
   url = {https://arxiv.org/pdf/1909.01638},
   title   = {Do we really need fully unsupervised cross-lingual embeddings?},
-  year    = {2019},
-}
-
-@Article{wu2019beto,
-  author  = {Wu, Shijie and Dredze, Mark},
-  url = {https://arxiv.org/pdf/1904.09077},
-  title   = {Beto, bentz, becas: The surprising cross-lingual effectiveness of BERT},
   year    = {2019},
 }
 
@@ -1083,10 +1075,10 @@ doi = {10.1007/978-3-642-13470-8_19}
   url       = {http://infoscience.epfl.ch/record/285045},
 }
 
-@InCollection{Barlas2020,
+@InProceedings{Barlas2020,
   author    = {Georgios Barlas and Efstathios Stamatatos},
   booktitle = {{IFIP} Advances in Information and Communication Technology},
-  title     = {Cross-Domain Authorship Attribution Using Pre-trained Language Models},
+  title     = {{Cross-Domain Authorship Attribution Using Pre-trained Language Models}},
   year      = {2020},
   pages     = {255--266},
   doi       = {10.1007/978-3-030-49161-1_22},
@@ -1353,6 +1345,18 @@ doi = {10.1007/978-3-642-13470-8_19}
   pages   = {130--137},
   volume  = {14},
   doi     = {10.1108/00330330610681286},
+}
+
+@Book{Manning1999,
+  author    = {Manning, Christopher (Stanford University) and Stuttgart, Hinrich (Uni and Schutze, Ims)},
+  publisher = {MIT Press Ltd},
+  title     = {Foundations of Statistical Natural Language Processing},
+  year      = {1999},
+  isbn      = {0262133601},
+  month     = may,
+  ean       = {9780262133609},
+  pagetotal = {720},
+  url       = {https://www.ebook.de/de/product/3755409/christopher_stanford_university_manning_hinrich_uni_stuttgart_ims_schutze_foundations_of_statistical_natural_language_processing.html},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
