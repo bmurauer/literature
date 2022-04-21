@@ -820,11 +820,11 @@
   primaryclass  = {cs.CL},
 }
 
-@Article{Brown2020,
+@Misc{Brown2020,
   author        = {Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei},
+  month         = may,
   title         = {{Language Models are Few-Shot Learners}},
   year          = {2020},
-  month         = may,
   abstract      = {Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.},
   archiveprefix = {arXiv},
   eprint        = {2005.14165},
@@ -1339,11 +1339,11 @@ doi = {10.1007/978-3-642-13470-8_19}
   pagetotal = {720},
 }
 
-@Article{Mikolov2013,
+@Misc{Mikolov2013,
   author        = {Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean},
+  month         = jan,
   title         = {{Efficient Estimation of Word Representations in Vector Space}},
   year          = {2013},
-  month         = jan,
   abstract      = {We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities.},
   archiveprefix = {arXiv},
   eprint        = {1301.3781},
@@ -1361,11 +1361,11 @@ doi = {10.1007/978-3-642-13470-8_19}
   url       = {http://www.aclweb.org/anthology/D14-1162},
 }
 
-@Article{Bojanowski2016,
+@Misc{Bojanowski2016,
   author        = {Piotr Bojanowski and Edouard Grave and Armand Joulin and Tomas Mikolov},
+  month         = jul,
   title         = {{Enriching Word Vectors with Subword Information}},
   year          = {2016},
-  month         = jul,
   abstract      = {Continuous word representations, trained on large unlabeled corpora are useful for many natural language processing tasks. Popular models that learn such representations ignore the morphology of words, by assigning a distinct vector to each word. This is a limitation, especially for languages with large vocabularies and many rare words. In this paper, we propose a new approach based on the skipgram model, where each word is represented as a bag of character $n$-grams. A vector representation is associated to each character $n$-gram; words being represented as the sum of these representations. Our method is fast, allowing to train models on large corpora quickly and allows us to compute word representations for words that did not appear in the training data. We evaluate our word representations on nine different languages, both on word similarity and analogy tasks. By comparing to recently proposed morphological word representations, we show that our vectors achieve state-of-the-art performance on these tasks.},
   archiveprefix = {arXiv},
   eprint        = {1607.04606},
@@ -1425,11 +1425,11 @@ doi = {10.1007/978-3-642-13470-8_19}
   doi       = {10.1109/iceeot.2016.7755213},
 }
 
-@Article{Budzianowski2019,
+@Misc{Budzianowski2019,
   author        = {Paweł Budzianowski and Ivan Vulić},
+  month         = jul,
   title         = {{Hello, It's GPT-2 -- How Can I Help You? Towards the Use of Pretrained Language Models for Task-Oriented Dialogue Systems}},
   year          = {2019},
-  month         = jul,
   abstract      = {Data scarcity is a long-standing and crucial challenge that hinders quick development of task-oriented dialogue systems across multiple domains: task-oriented dialogue models are expected to learn grammar, syntax, dialogue reasoning, decision making, and language generation from absurdly small amounts of task-specific data. In this paper, we demonstrate that recent progress in language modeling pre-training and transfer learning shows promise to overcome this problem. We propose a task-oriented dialogue model that operates solely on text input: it effectively bypasses explicit policy and language generation modules. Building on top of the TransferTransfo framework (Wolf et al., 2019) and generative model pre-training (Radford et al., 2019), we validate the approach on complex multi-domain task-oriented dialogues from the MultiWOZ dataset. Our automatic and human evaluations show that the proposed model is on par with a strong task-specific neural baseline. In the long run, our approach holds promise to mitigate the data scarcity problem, and to support the construction of more engaging and more eloquent task-oriented conversational agents.},
   archiveprefix = {arXiv},
   eprint        = {1907.05774},
@@ -1438,12 +1438,11 @@ doi = {10.1007/978-3-642-13470-8_19}
   primaryclass  = {cs.CL},
 }
 
-@Article{Wu2020,
+@Misc{Wu2020,
   author        = {Chien-Sheng Wu and Steven Hoi and Richard Socher and Caiming Xiong},
+  month         = apr,
   title         = {{TOD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogue}},
   year          = {2020},
-  month         = apr,
-  abstract      = {The underlying difference of linguistic patterns between general text and task-oriented dialogue makes existing pre-trained language models less useful in practice. In this work, we unify nine human-human and multi-turn task-oriented dialogue datasets for language modeling. To better model dialogue behavior during pre-training, we incorporate user and system tokens into the masked language modeling. We propose a contrastive objective function to simulate the response selection task. Our pre-trained task-oriented dialogue BERT (TOD-BERT) outperforms strong baselines like BERT on four downstream task-oriented dialogue applications, including intention recognition, dialogue state tracking, dialogue act prediction, and response selection. We also show that TOD-BERT has a stronger few-shot ability that can mitigate the data scarcity problem for task-oriented dialogue.},
   archiveprefix = {arXiv},
   eprint        = {2004.06871},
   file          = {:http\://arxiv.org/pdf/2004.06871v3:PDF},
@@ -1459,6 +1458,19 @@ doi = {10.1007/978-3-642-13470-8_19}
   year      = {2019},
   pages     = {194--206},
   doi       = {10.1007/978-3-030-32381-3_16},
+}
+
+@Article{Murauer2021,
+  author        = {Benjamin Murauer and Michael Tschuggnall and Günther Specht},
+  title         = {{On the Influence of Machine Translation on Language Origin Obfuscation}},
+  year          = {2018},
+  month         = jun,
+  abstract      = {In the last decade, machine translation has become a popular means to deal with multilingual digital content. By providing higher quality translations, obfuscating the source language of a text becomes more attractive. In this paper, we analyze the ability to detect the source language from the translated output of two widely used commercial machine translation systems by utilizing machine-learning algorithms with basic textual features like n-grams. Evaluations show that the source language can be reconstructed with high accuracy for documents that contain a sufficient amount of translated text. In addition, we analyze how the document size influences the performance of the prediction, as well as how limiting the set of possible source languages improves the classification accuracy.},
+  archiveprefix = {arXiv},
+  eprint        = {2106.12830},
+  file          = {:http\://arxiv.org/pdf/2106.12830v1:PDF},
+  keywords      = {cs.CL},
+  primaryclass  = {cs.CL},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
